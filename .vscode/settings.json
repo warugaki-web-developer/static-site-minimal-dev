@@ -1,0 +1,94 @@
+{
+  /* ========== VSCode ======== */
+  "editor.guides.bracketPairs": true,
+  // files
+  "files.associations": {
+    "*.json": "json",
+    "*.jsonc": "jsonc"
+  },
+  /* ========== ESLint ========== */
+  "eslint.validate": [
+    "javascript",
+    "html",
+  ],
+  "eslint.useFlatConfig": true,
+  /* ========== Stylelint ========== */
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": [
+    "css",
+    "postcss",
+    "scss",
+  ],
+  "stylelint.snippet": [
+    "css",
+    "postcss",
+    "scss",
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": "explicit"
+    },
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": "explicit"
+    },
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": "explicit"
+    },
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true,
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true,
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "vscode.markdown-language-features",
+    "editor.formatOnSave": true
+  },
+  "files.exclude": {
+    "**/node_modules": false,
+    "**/.editorconfig": false,
+    "**/.gitignore": false,
+    "**/.npmrc": false,
+    "**/.node-version": false,
+    "**/.nvmrc": false,
+    "**/.stylelintrc.cjs": false,
+    "**/.stylelintignore": false,
+    "**/package-lock.json": false,
+    "**/package.json": false,
+  },
+}

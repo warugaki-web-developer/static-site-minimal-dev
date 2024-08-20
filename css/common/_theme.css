@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ------------------ Theme Tokens */
+:root {
+  /* ------ Color */
+  --color-black: #000;
+  --color-white: #fff;
+
+  /* Neutral */
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-300: #cbd5e1;
+  --color-neutral-400: #94a3b8;
+  --color-neutral-500: #64748b;
+  --color-neutral-600: #475569;
+  --color-neutral-700: #334155;
+  --color-neutral-800: #1e293b;
+  --color-neutral-900: #0f172a;
+
+  /* border */
+  --border-color-base: #cbd5e1;
+
+  /* ----- Typography */
+
+  /* font  */
+  --font-family-base: "Rubik", "Noto Sans JP", sans-serif;
+  --font-size-base: 16px;
+  --font-weight-base: 400;
+
+  /* text */
+  --text-color-base: #334155;
+
+  /* ----- Spacing */
+  --spacing-base: 8px;
+
+  /* ----- Radius */
+  --radius-none: 0;
+  --radius-base: 8px;
+  --radius-full: 9999px;
+
+  /* ----- Shadow */
+  --box-shadow-sm: 0 0 4px rgb(0 0 0 / 10%);
+  --box-shadow-md: 0 0 8px rgb(0 0 0 / 10%);
+  --box-shadow-lg: 0 0 16px rgb(0 0 0 / 10%);
+}
